@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String name = "bob";
+        String name1 = "bob";
+
+        String name3 = new String("Bob");
+
+        System.out.println(name == name1);
     }
 }
